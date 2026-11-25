@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.env
+.env.*
+shipdata/datasets/
+*.cache
+*.mp4
+*.rar
+runs/detect/
+runs/val/
+runs/train/*
+!runs/train/exp/
+yolov5s.pt

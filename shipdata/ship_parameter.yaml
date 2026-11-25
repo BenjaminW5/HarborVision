@@ -1,0 +1,9 @@
+
+path: shipdata/datasets
+train: images/train
+val: images/valid
+
+# Classes
+nc: 7  # number of classes
+names: [ 'ore carrier', 'bulk cargo carrier', 'general cargo ship', 'container ship', 'fishing boat', 'passenger ship','gondola' ]  # class names
+
