@@ -8,7 +8,7 @@ YOLOv5 · PyTorch · OpenCV · PyQt5
 
 English | [简体中文](README.zh-CN.md)
 
-[Features](#features) · [Results](#results) · [Quick start](#quick-start) · [Training](#training)
+[Features](#features) · [Gallery](#detection-gallery) · [Results](#results) · [Quick start](#quick-start) · [Training](#training)
 
 </div>
 
@@ -20,6 +20,22 @@ HarborVision is my ship detection project built with YOLOv5. It locates and clas
 - **Image and video inference** — bounding boxes, class labels, confidence scores, and optional text output.
 - **Desktop interaction** — video and checkpoint selection, confidence/IoU controls, and pause/resume.
 - **Training and evaluation** — custom model configuration, 40 epochs of metrics, PR curves, and a confusion matrix.
+
+## Detection gallery
+
+### Model predictions
+
+Saved validation outputs showing bounding boxes, predicted classes, and confidence scores. These examples include classification errors and missed detections.
+
+| Ship examples | Ship and nighttime scene |
+| --- | --- |
+| ![Model predictions on ship images](runs/train/exp/val_batch1_pred.jpg) | ![Model predictions on a ship image and a nighttime scene](runs/train/exp/val_batch2_pred.jpg) |
+
+### Training annotations
+
+![Ship bounding boxes in a training mosaic](runs/train/exp/train_batch0.jpg)
+
+A training batch after Mosaic augmentation. The boxes and numeric labels are dataset annotations, not model predictions.
 
 ## Results
 
