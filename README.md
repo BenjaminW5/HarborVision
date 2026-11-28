@@ -1,16 +1,19 @@
 <div align="center">
 
-# HarborVision
+![HarborVision](docs/images/banner.svg)
 
-**Ship detection, from images to desktop video.**
+**港湾视界 · Ship detection, from images to desktop video**
 
-YOLOv5 · PyTorch · OpenCV · PyQt5
+[English](README.md) · [简体中文](README.zh-CN.md)
 
-English | [简体中文](README.zh-CN.md)
-
-[Features](#features) · [Gallery](#detection-gallery) · [Results](#results) · [Quick start](#quick-start) · [Training](#training)
+![YOLOv5](https://img.shields.io/badge/YOLOv5-Detection-157a9c?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-EE4C2C?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-Vision-5C3EE8?style=flat-square)
+![PyQt5](https://img.shields.io/badge/PyQt5-Desktop-41CD52?style=flat-square)
 
 </div>
+
+---
 
 HarborVision is my ship detection project built with YOLOv5. It locates and classifies seven types of vessels in images and video, with command-line inference and a desktop interface for exploring predictions. The repository includes model configuration, trained weights, evaluation plots, and application source.
 

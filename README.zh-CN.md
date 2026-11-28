@@ -1,16 +1,19 @@
 <div align="center">
 
-# HarborVision · 港湾视界
+![HarborVision](docs/images/banner.svg)
 
-**从图片检测到桌面视频交互的船只识别项目。**
+**港湾视界 · Ship detection, from images to desktop video**
 
-YOLOv5 · PyTorch · OpenCV · PyQt5
+[English](README.md) · [简体中文](README.zh-CN.md)
 
-[English](README.md) | 简体中文
-
-[功能特点](#功能特点) · [框选展示](#船只框选展示) · [检测效果](#检测效果) · [快速开始](#快速开始) · [模型训练](#模型训练)
+![YOLOv5](https://img.shields.io/badge/YOLOv5-Detection-157a9c?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-EE4C2C?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-Vision-5C3EE8?style=flat-square)
+![PyQt5](https://img.shields.io/badge/PyQt5-Desktop-41CD52?style=flat-square)
 
 </div>
+
+---
 
 HarborVision 是我基于 YOLOv5 开发的船只检测项目，可以定位并识别图片和视频中的七类船只。项目提供命令行推理和桌面交互两种使用方式，包含模型配置、训练权重、评估图表和应用源码。
 
